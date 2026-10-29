@@ -16,8 +16,8 @@ import java.util.List;
 public final class Integrantes {
 
     /** Título que muestra la ventana (no es necesario cambiarlos). */
-    public static final String NOMBRE_EQUIPO = "Nuestro equipo";
-    public static final String LEMA = "Una tarjeta por integrante";
+    public static final String NOMBRE_EQUIPO = "Lamento Colombiano";
+    public static final String LEMA = "En la vida hay dos opciones: Ser feliz... o ser usuario de Linux :C";
 
     private Integrantes() {
     }
@@ -27,7 +27,7 @@ public final class Integrantes {
 
         lista.add(new Tarjeta("cbotina", "Carlos Botina", "Bienvenidos al trabajo en equipo. Agreguen su tarjeta!", "#FFD166"));
         // >>> AGREGUE SU TARJETA DEBAJO DE ESTA LÍNEA <<<
-
+        lista.add(new Tarjeta("CamiloMarmolejo", "Camilo Marmolejo", "En la vida hay dos opciones: Ser feliz... o ser usuario de Linux :C", "#1b004b" ));
         return lista;
     }
 }
