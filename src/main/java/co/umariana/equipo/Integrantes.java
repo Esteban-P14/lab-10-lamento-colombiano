@@ -29,6 +29,7 @@ public final class Integrantes {
         // >>> AGREGUE SU TARJETA DEBAJO DE ESTA LÍNEA <<<
         lista.add(new Tarjeta("CamiloMarmolejo", "Camilo Marmolejo", "En la vida hay dos opciones: Ser feliz... o ser usuario de Linux :C", "#1b004b" ));
         lista.add(new Tarjeta("gabcastrobat", "Gabriel Castro", "Todo se acabo señores, todo todillo", "#ccff00" ));
+        lista.add(new Tarjeta("IvanVallejo0888", "Ivan Vallejo", "HolakHace", "#118AB2"));
         return lista;
     }
 }
